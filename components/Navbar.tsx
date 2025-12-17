@@ -16,10 +16,13 @@ export default function Navbar() {
 
                 {/* Desktop Nav Links */}
                 <div className="hidden md:flex items-center gap-10 text-base font-medium text-slate-400">
+                    <Link href="/" className="hover:text-white transition-colors">
+                        Home
+                    </Link>
                     <Link href="/services" className="hover:text-white transition-colors">
                         Services
                     </Link>
-                    <Link href="#" className="hover:text-white transition-colors">
+                    <Link href="/methodology" className="hover:text-white transition-colors">
                         Methodology
                     </Link>
                     <Link href="/about" className="hover:text-white transition-colors">
